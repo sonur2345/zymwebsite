@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sonu fitness</title>
+</head>
+<link rel="stylesheet" href="" class="css/style.css">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/abs-gbb2a4f26b_1920.jpg');
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 11px;
+        display: inline-block;
+
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 12px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 11px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 3px 4px;
+        border: 2px solid gray;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn.hover {
+        background-color: rgb(37, 37, 37);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 80px 33px;
+        padding: 47px 42px;
+        width: 33%;
+        border-radius: 12px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 6px;
+        border: 2px solid black;
+        margin: 11px auto;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 31%;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header class="heder">
+        <div class="left">
+            <img src="img/weight-g961ba8348_1280.png" alt="">
+            <div>Sonu Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculater</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Delhi now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your address">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" id="" placeholder="Enter your mobile number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
